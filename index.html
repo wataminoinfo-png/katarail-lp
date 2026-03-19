@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>カタレール（KataRail）｜肩の痛み専門 オンライン相談</title>
+  <meta name="description" content="整形外科領域20年の理学療法士が、肩・肘の痛みについてオンラインで個別相談を承ります。LINE登録で五十肩セルフケアPDFを無料プレゼント。" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            teal: {
+              600: '#0D9488',
+              700: '#0f766e',
+            },
+            line: {
+              green: '#06C755',
+              dark: '#05b24c',
+            }
+          },
+          fontFamily: {
+            sans: ['"Noto Sans JP"', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body { font-family: 'Noto Sans JP', sans-serif; }
+    .line-btn {
+      background-color: #06C755;
+      color: #fff;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.875rem 2rem;
+      border-radius: 9999px;
+      font-weight: 700;
+      font-size: 1.05rem;
+      text-decoration: none;
+      transition: background-color 0.2s;
+      box-shadow: 0 4px 12px rgba(6, 199, 85, 0.35);
+    }
+    .line-btn:hover { background-color: #05b24c; }
+    .section-title {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #0D9488;
+      padding-bottom: 0.5rem;
+      border-bottom: 3px solid #0D9488;
+      display: inline-block;
+      margin-bottom: 2rem;
+    }
+    .step-number {
+      background-color: #0D9488;
+      color: #fff;
+      width: 2.25rem;
+      height: 2.25rem;
+      border-radius: 9999px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 1rem;
+      flex-shrink: 0;
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-800">
+
+  <!-- ヘッダー -->
+  <header class="bg-white border-b border-gray-100 sticky top-0 z-50 shadow-sm">
+    <div class="max-w-3xl mx-auto px-5 py-3 flex items-center justify-between">
+      <div>
+        <span class="font-bold text-lg text-teal-600">カタレール</span>
+        <span class="text-xs text-gray-400 ml-2 hidden sm:inline">KataRail</span>
+      </div>
+      <a href="http://line.me/R/ti/p/@910tiufm" class="line-btn text-sm py-2 px-4">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4"><path d="M19.365 9.863c.349 0 .63.285.63.631 0 .345-.281.63-.63.63H17.61v1.125h1.755c.349 0 .63.283.63.63 0 .344-.281.629-.63.629h-2.386c-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.627-.63h2.386c.349 0 .63.285.63.63 0 .349-.281.63-.63.63H17.61v1.125h1.755zm-3.855 3.016c0 .27-.174.51-.432.596-.064.021-.133.031-.199.031-.211 0-.391-.09-.51-.25l-2.443-3.317v2.94c0 .344-.279.629-.631.629-.346 0-.626-.285-.626-.629V8.108c0-.27.173-.51.43-.595.06-.023.136-.033.194-.033.195 0 .375.104.495.254l2.462 3.33V8.108c0-.345.282-.63.63-.63.345 0 .63.285.63.63v4.771zm-5.741 0c0 .344-.282.629-.631.629-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.627-.63.349 0 .631.285.631.63v4.771zm-2.466.629H4.917c-.345 0-.63-.285-.63-.629V8.108c0-.345.285-.63.63-.63.348 0 .63.285.63.63v4.141h1.756c.348 0 .629.283.629.63 0 .344-.281.629-.629.629M24 10.314C24 4.943 18.615.572 12 .572S0 4.943 0 10.314c0 4.811 4.27 8.842 10.035 9.608.391.082.923.258 1.058.59.12.301.079.766.038 1.08l-.164 1.02c-.045.301-.24 1.186 1.049.645 1.291-.539 6.916-4.078 9.436-6.975C23.176 14.393 24 12.458 24 10.314"/></svg>
+        LINE登録
+      </a>
+    </div>
+  </header>
+
+  <!-- ヒーローセクション -->
+  <section class="bg-gradient-to-b from-teal-50 to-white py-16 px-5">
+    <div class="max-w-3xl mx-auto text-center">
+      <p class="text-teal-600 font-medium text-sm mb-3 tracking-widest">KataRail ｜ カタレール</p>
+      <h1 class="text-3xl sm:text-4xl font-bold text-gray-900 leading-tight mb-5">
+        肩の痛み、<br class="sm:hidden" />ひとりで抱えていませんか？
+      </h1>
+      <p class="text-base sm:text-lg text-gray-600 leading-relaxed mb-8">
+        整形外科領域20年の理学療法士が、<br />あなたの回復を一緒に考えます。
+      </p>
+      <a href="http://line.me/R/ti/p/@910tiufm" class="line-btn text-base">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5"><path d="M19.365 9.863c.349 0 .63.285.63.631 0 .345-.281.63-.63.63H17.61v1.125h1.755c.349 0 .63.283.63.630 0 .344-.281.629-.63.629h-2.386c-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.627-.63h2.386c.349 0 .63.285.63.63 0 .349-.281.63-.63.63H17.61v1.125h1.755zm-3.855 3.016c0 .27-.174.51-.432.596-.064.021-.133.031-.199.031-.211 0-.391-.09-.51-.25l-2.443-3.317v2.94c0 .344-.279.629-.631.629-.346 0-.626-.285-.626-.629V8.108c0-.27.173-.51.43-.595.06-.023.136-.033.194-.033.195 0 .375.104.495.254l2.462 3.33V8.108c0-.345.282-.63.63-.63.345 0 .63.285.63.63v4.771zm-5.741 0c0 .344-.282.629-.631.629-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.627-.63.349 0 .631.285.631.63v4.771zm-2.466.629H4.917c-.345 0-.63-.285-.63-.629V8.108c0-.345.285-.63.63-.63.348 0 .63.285.63.63v4.141h1.756c.348 0 .629.283.629.63 0 .344-.281.629-.629.629M24 10.314C24 4.943 18.615.572 12 .572S0 4.943 0 10.314c0 4.811 4.27 8.842 10.035 9.608.391.082.923.258 1.058.59.12.301.079.766.038 1.08l-.164 1.02c-.045.301-.24 1.186 1.049.645 1.291-.539 6.916-4.078 9.436-6.975C23.176 14.393 24 12.458 24 10.314"/></svg>
+        LINE友だち追加（無料）
+      </a>
+      <p class="text-xs text-gray-400 mt-3">✓ 無料PDF特典あり &nbsp; ✓ 勧誘なし &nbsp; ✓ いつでも退会可</p>
+    </div>
+  </section>
+
+  <!-- サービス内容 -->
+  <section class="py-16 px-5 bg-white">
+    <div class="max-w-3xl mx-auto">
+      <div class="text-center mb-10">
+        <span class="section-title">サービス内容</span>
+      </div>
+      <div class="grid sm:grid-cols-2 gap-6">
+        <!-- 無料 -->
+        <div class="border border-teal-200 rounded-2xl p-7 bg-teal-50">
+          <div class="flex items-center gap-3 mb-4">
+            <span class="text-2xl">🎁</span>
+            <span class="bg-teal-600 text-white text-xs font-bold px-3 py-1 rounded-full">無料</span>
+          </div>
+          <h3 class="text-lg font-bold text-gray-900 mb-2">五十肩セルフケアPDF</h3>
+          <p class="text-sm text-gray-600 leading-relaxed">
+            LINE友だち追加で即プレゼント。<br />
+            整形外科専門の理学療法士が監修した、自宅でできる肩のセルフケア方法をわかりやすく解説。
+          </p>
+          <div class="mt-5">
+            <a href="http://line.me/R/ti/p/@910tiufm" class="line-btn text-sm py-2 px-5">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4"><path d="M19.365 9.863c.349 0 .63.285.63.631 0 .345-.281.63-.63.63H17.61v1.125h1.755c.349 0 .63.283.63.630 0 .344-.281.629-.63.629h-2.386c-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.627-.63h2.386c.349 0 .63.285.63.63 0 .349-.281.63-.63.63H17.61v1.125h1.755zm-3.855 3.016c0 .27-.174.51-.432.596-.064.021-.133.031-.199.031-.211 0-.391-.09-.51-.25l-2.443-3.317v2.94c0 .344-.279.629-.631.629-.346 0-.626-.285-.626-.629V8.108c0-.27.173-.51.43-.595.06-.023.136-.033.194-.033.195 0 .375.104.495.254l2.462 3.33V8.108c0-.345.282-.63.63-.63.345 0 .63.285.63.63v4.771zm-5.741 0c0 .344-.282.629-.631.629-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.627-.63.349 0 .631.285.631.63v4.771zm-2.466.629H4.917c-.345 0-.63-.285-.63-.629V8.108c0-.345.285-.63.63-.63.348 0 .63.285.63.63v4.141h1.756c.348 0 .629.283.629.63 0 .344-.281.629-.629.629M24 10.314C24 4.943 18.615.572 12 .572S0 4.943 0 10.314c0 4.811 4.27 8.842 10.035 9.608.391.082.923.258 1.058.59.12.301.079.766.038 1.08l-.164 1.02c-.045.301-.24 1.186 1.049.645 1.291-.539 6.916-4.078 9.436-6.975C23.176 14.393 24 12.458 24 10.314"/></svg>
+              今すぐ受け取る
+            </a>
+          </div>
+        </div>
+        <!-- 有料 -->
+        <div class="border border-gray-200 rounded-2xl p-7 bg-white shadow-sm">
+          <div class="flex items-center gap-3 mb-4">
+            <span class="text-2xl">💬</span>
+            <span class="bg-gray-800 text-white text-xs font-bold px-3 py-1 rounded-full">有料</span>
+          </div>
+          <h3 class="text-lg font-bold text-gray-900 mb-2">オンライン個別相談</h3>
+          <p class="text-sm text-gray-600 leading-relaxed mb-3">
+            Zoom等のビデオ通話にて、お一人おひとりの状況に合わせてご相談をお受けします。
+          </p>
+          <ul class="text-sm text-gray-600 space-y-1 mb-4">
+            <li>⏱ 所要時間：20〜30分</li>
+            <li>💴 料金：<strong class="text-gray-900">3,500円（税込）</strong></li>
+            <li>💳 決済：クレジットカード（Stripe）</li>
+          </ul>
+          <div class="bg-gray-50 rounded-xl p-3 text-xs text-gray-500">
+            対象：五十肩・肩の痛み・肘の痛みでお悩みの方
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 運営者プロフィール -->
+  <section class="py-16 px-5 bg-gray-50">
+    <div class="max-w-3xl mx-auto">
+      <div class="text-center mb-10">
+        <span class="section-title">運営者プロフィール</span>
+      </div>
+      <div class="bg-white rounded-2xl p-8 shadow-sm flex flex-col sm:flex-row gap-7 items-start">
+        <div class="flex-shrink-0 w-20 h-20 rounded-full bg-teal-100 flex items-center justify-center text-4xl mx-auto sm:mx-0">
+          🏃
+        </div>
+        <div class="flex-1">
+          <p class="text-xs text-teal-600 font-medium mb-1 tracking-wide">カタレール 運営者</p>
+          <h3 class="text-xl font-bold text-gray-900 mb-4">わたなべ みのる</h3>
+          <div class="space-y-2 text-sm text-gray-700">
+            <div class="flex items-start gap-2">
+              <span class="text-teal-500 mt-0.5">✓</span>
+              <span><strong>理学療法士（PT）</strong> ／ CSCS（認定ストレングス&コンディショニングスペシャリスト）</span>
+            </div>
+            <div class="flex items-start gap-2">
+              <span class="text-teal-500 mt-0.5">✓</span>
+              <span>整形外科領域での<strong>臨床経験20年以上</strong></span>
+            </div>
+            <div class="flex items-start gap-2">
+              <span class="text-teal-500 mt-0.5">✓</span>
+              <span>肩・肘疾患を専門とするリハビリテーション従事</span>
+            </div>
+            <div class="flex items-start gap-2">
+              <span class="text-teal-500 mt-0.5">✓</span>
+              <span>現在はケアマネジャーとしても従事</span>
+            </div>
+          </div>
+          <div class="mt-5">
+            <a href="https://x.com/pt_noru" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-sm text-gray-500 hover:text-gray-800 transition-colors">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.835L1.254 2.25H8.08l4.261 5.636zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+              X（旧Twitter）@pt_noru
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ご利用の流れ -->
+  <section class="py-16 px-5 bg-white">
+    <div class="max-w-3xl mx-auto">
+      <div class="text-center mb-10">
+        <span class="section-title">ご利用の流れ</span>
+      </div>
+      <div class="space-y-6">
+        <div class="flex items-start gap-5">
+          <div class="step-number">1</div>
+          <div class="flex-1 pt-0.5">
+            <h4 class="font-bold text-gray-900 mb-1">LINE友だち追加</h4>
+            <p class="text-sm text-gray-600">下のボタンからLINE公式アカウントを友だち追加してください。スマホから簡単に登録できます。</p>
+          </div>
+        </div>
+        <div class="flex items-center gap-5 pl-4">
+          <div class="w-0.5 h-8 bg-teal-200 ml-3.5"></div>
+        </div>
+        <div class="flex items-start gap-5">
+          <div class="step-number">2</div>
+          <div class="flex-1 pt-0.5">
+            <h4 class="font-bold text-gray-900 mb-1">無料PDFを受け取る</h4>
+            <p class="text-sm text-gray-600">登録後、五十肩セルフケアPDFが自動でお届けされます。まずは自宅でのケアを試してみましょう。</p>
+          </div>
+        </div>
+        <div class="flex items-center gap-5 pl-4">
+          <div class="w-0.5 h-8 bg-teal-200 ml-3.5"></div>
+        </div>
+        <div class="flex items-start gap-5">
+          <div class="step-number">3</div>
+          <div class="flex-1 pt-0.5">
+            <h4 class="font-bold text-gray-900 mb-1">必要に応じて個別相談を予約</h4>
+            <p class="text-sm text-gray-600">「もっと詳しく聞きたい」「自分のケースについて相談したい」という方は、LINEからオンライン個別相談をご予約いただけます（3,500円・税込）。</p>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-10">
+        <a href="http://line.me/R/ti/p/@910tiufm" class="line-btn text-base">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5"><path d="M19.365 9.863c.349 0 .63.285.63.631 0 .345-.281.63-.63.63H17.61v1.125h1.755c.349 0 .63.283.63.630 0 .344-.281.629-.63.629h-2.386c-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.627-.63h2.386c.349 0 .63.285.63.63 0 .349-.281.63-.63.63H17.61v1.125h1.755zm-3.855 3.016c0 .27-.174.51-.432.596-.064.021-.133.031-.199.031-.211 0-.391-.09-.51-.25l-2.443-3.317v2.94c0 .344-.279.629-.631.629-.346 0-.626-.285-.626-.629V8.108c0-.27.173-.51.43-.595.06-.023.136-.033.194-.033.195 0 .375.104.495.254l2.462 3.33V8.108c0-.345.282-.63.63-.63.345 0 .63.285.63.63v4.771zm-5.741 0c0 .344-.282.629-.631.629-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.627-.63.349 0 .631.285.631.63v4.771zm-2.466.629H4.917c-.345 0-.63-.285-.63-.629V8.108c0-.345.285-.63.63-.63.348 0 .63.285.63.63v4.141h1.756c.348 0 .629.283.629.63 0 .344-.281.629-.629.629M24 10.314C24 4.943 18.615.572 12 .572S0 4.943 0 10.314c0 4.811 4.27 8.842 10.035 9.608.391.082.923.258 1.058.59.12.301.079.766.038 1.08l-.164 1.02c-.045.301-.24 1.186 1.049.645 1.291-.539 6.916-4.078 9.436-6.975C23.176 14.393 24 12.458 24 10.314"/></svg>
+          まずは無料でLINE登録する
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 特定商取引法 -->
+  <section class="py-16 px-5 bg-gray-50" id="tokusho">
+    <div class="max-w-3xl mx-auto">
+      <div class="text-center mb-10">
+        <span class="section-title">特定商取引法に基づく表記</span>
+      </div>
+      <div class="bg-white rounded-2xl shadow-sm overflow-hidden">
+        <table class="w-full text-sm">
+          <tbody>
+            <tr class="border-b border-gray-100">
+              <th class="text-left py-4 px-5 bg-gray-50 w-40 font-medium text-gray-600 align-top">販売事業者名</th>
+              <td class="py-4 px-5 text-gray-800">[氏名を記入してください]</td>
+            </tr>
+            <tr class="border-b border-gray-100">
+              <th class="text-left py-4 px-5 bg-gray-50 font-medium text-gray-600 align-top">所在地</th>
+              <td class="py-4 px-5 text-gray-800">[住所を記入してください]</td>
+            </tr>
+            <tr class="border-b border-gray-100">
+              <th class="text-left py-4 px-5 bg-gray-50 font-medium text-gray-600 align-top">連絡先</th>
+              <td class="py-4 px-5 text-gray-800">[メールアドレスを記入してください]</td>
+            </tr>
+            <tr class="border-b border-gray-100">
+              <th class="text-left py-4 px-5 bg-gray-50 font-medium text-gray-600 align-top">販売価格</th>
+              <td class="py-4 px-5 text-gray-800">3,500円（税込）</td>
+            </tr>
+            <tr class="border-b border-gray-100">
+              <th class="text-left py-4 px-5 bg-gray-50 font-medium text-gray-600 align-top">支払方法</th>
+              <td class="py-4 px-5 text-gray-800">クレジットカード（Stripe決済）</td>
+            </tr>
+            <tr class="border-b border-gray-100">
+              <th class="text-left py-4 px-5 bg-gray-50 font-medium text-gray-600 align-top">提供時期</th>
+              <td class="py-4 px-5 text-gray-800">決済完了後、予約日時にてオンライン（ビデオ通話）にて実施</td>
+            </tr>
+            <tr class="border-b border-gray-100">
+              <th class="text-left py-4 px-5 bg-gray-50 font-medium text-gray-600 align-top">返品・<br />キャンセル</th>
+              <td class="py-4 px-5 text-gray-800">相談日の24時間前までは無料でキャンセル可能。それ以降のキャンセルはご返金いたしかねます。サービスの性質上、提供後の返品・返金には応じられません。</td>
+            </tr>
+            <tr>
+              <th class="text-left py-4 px-5 bg-gray-50 font-medium text-gray-600 align-top">動作環境</th>
+              <td class="py-4 px-5 text-gray-800">Zoom等のビデオ通話が利用可能なスマートフォン・PC（インターネット接続必須）</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- フッター -->
+  <footer class="bg-gray-800 text-gray-300 py-10 px-5">
+    <div class="max-w-3xl mx-auto">
+      <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-5">
+        <div>
+          <p class="font-bold text-white text-lg mb-1">カタレール（KataRail）</p>
+          <p class="text-sm text-gray-400">肩・肘の痛みに特化したオンライン相談サービス</p>
+        </div>
+        <div class="flex flex-col gap-2 text-sm">
+          <a href="http://line.me/R/ti/p/@910tiufm" class="hover:text-white transition-colors flex items-center gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4 text-green-400"><path d="M19.365 9.863c.349 0 .63.285.63.631 0 .345-.281.63-.63.63H17.61v1.125h1.755c.349 0 .63.283.63.630 0 .344-.281.629-.63.629h-2.386c-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.627-.63h2.386c.349 0 .63.285.63.63 0 .349-.281.63-.63.63H17.61v1.125h1.755zm-3.855 3.016c0 .27-.174.51-.432.596-.064.021-.133.031-.199.031-.211 0-.391-.09-.51-.25l-2.443-3.317v2.94c0 .344-.279.629-.631.629-.346 0-.626-.285-.626-.629V8.108c0-.27.173-.51.43-.595.06-.023.136-.033.194-.033.195 0 .375.104.495.254l2.462 3.33V8.108c0-.345.282-.63.63-.63.345 0 .63.285.63.63v4.771zm-5.741 0c0 .344-.282.629-.631.629-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.627-.63.349 0 .631.285.631.63v4.771zm-2.466.629H4.917c-.345 0-.63-.285-.63-.629V8.108c0-.345.285-.63.63-.63.348 0 .63.285.63.63v4.141h1.756c.348 0 .629.283.629.63 0 .344-.281.629-.629.629M24 10.314C24 4.943 18.615.572 12 .572S0 4.943 0 10.314c0 4.811 4.27 8.842 10.035 9.608.391.082.923.258 1.058.59.12.301.079.766.038 1.08l-.164 1.02c-.045.301-.24 1.186 1.049.645 1.291-.539 6.916-4.078 9.436-6.975C23.176 14.393 24 12.458 24 10.314"/></svg>
+            LINE公式アカウント
+          </a>
+          <a href="https://x.com/pt_noru" target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors flex items-center gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.835L1.254 2.25H8.08l4.261 5.636zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            X（旧Twitter）@pt_noru
+          </a>
+          <a href="#tokusho" class="hover:text-white transition-colors text-gray-400">特定商取引法に基づく表記</a>
+        </div>
+      </div>
+      <div class="border-t border-gray-700 mt-8 pt-6 text-center text-xs text-gray-500">
+        © 2026 カタレール（KataRail） All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
